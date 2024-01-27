@@ -1,0 +1,515 @@
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#nav-container {
+    background-color: #212529;
+    height: 50px;
+}
+
+#R-icon {
+    color: white;
+    font-size: 27px;
+    padding-left: 20%;
+}
+
+#navigation {
+    padding-top: 10px;
+}
+
+.btn-nav {
+    background-color: #212529;
+    border-radius: 0px;
+    color: #ced4da;
+    vertical-align: middle;
+    border: 0px;
+    padding: 10px;
+    margin-top: -50px;
+    margin-left: 15px;
+}
+
+#btn-nav2 {
+    background-color: #212529;
+    border-radius: 0px;
+    color: white;
+    font-weight: bold;
+    margin-left: 60%;
+    vertical-align: middle;
+    border: 0px;
+    padding: 10px;
+    margin-top: -50px;
+}
+
+#cover {
+    background-color: #DEE2E6;
+    width: 100%;
+    height: 550px;
+    top: 70px;
+}
+
+#Hello {
+    color: #212529;
+    font-family: inherit;
+    font-size: 64px;
+    padding-top: 170px;
+    padding-left: 250px;
+}
+
+#just-P {
+    color: #6C757D;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+    padding-left: 250px;
+}
+
+#hire-me {
+    color: #F8F9FA;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #212529;
+    margin-left: 250px;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+#ridho-picture {
+    background-image: url("images/Ellipse\ 1.svg");
+    background-position: top 50%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: -321px;
+    margin-left: 1200px;
+    vertical-align: middle;
+    width: 338.832px;
+    height: 464px;
+    flex-shrink: 0;
+}
+
+#white-div {
+    background: #F8F9FA;
+    width: 100%;
+    height: 350px;
+    flex-shrink: 0;
+}
+
+#about {
+    width: 189px;
+    height: 120.89px;
+    flex-shrink: 0;
+    color: #212529;
+    font-family: inherit;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 100px;
+    padding-left: 250px;
+    vertical-align: middle;
+}
+
+#me {
+    width: 189px;
+    height: 120.89px;
+    flex-shrink: 0;
+    color: #212529;
+    font-family: inherit;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 40px;
+    padding-left: 250px;
+}
+
+#Lorem {
+    margin-top: -150px;
+    margin-left: 600px;
+    width: 608px;
+    height: 100px;
+    flex-shrink: 0;
+    color: #212529;
+    font-family: inherit;
+    vertical-align: middle;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#Hire-Me {
+    margin-top: 20px;
+    margin-left: 600px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background: #212529;
+    color: #F8F9FA;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#View-CV {
+    color: #212529;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid #212529;
+    background: #F8F9FA;
+}
+
+#services-container {
+    width: 100%;
+    height: 600px;
+    flex-shrink: 0;
+    background: #DEE2E6;
+}
+
+#Services {
+    padding-top: 65px;
+    text-align: center;
+    color: #212529;
+    font-family: inherit;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#ipsum {
+    margin-left: 650px;
+    padding: 20px;
+    width: 600px;
+    color: #6C757D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#service-cards-container {
+    text-align: center;
+}
+
+.card {
+    margin-right: 30px;
+    display: inline-block;
+    width: 270px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #212529;
+    box-shadow: 15px 10px 15px grey;
+}
+
+.cards-icon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cards-title {
+    color: #F8F9FA;
+    font-family: inherit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.cards-paragraph {
+    width: 210px;
+    color: #F8F9FA;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10%;
+}
+
+#blog-container {
+    margin-top: -40px;
+    width: 100%;
+    height: 640px;
+    flex-shrink: 0;
+    background: #F8F9FA
+}
+
+#h2-blog {
+    padding-top: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: #212529;
+    font-family: inherit;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.blog-cards {
+    
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 400px;
+    margin-right: -10%;
+    width: 430px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #D9D9D9;
+}
+
+.card-title-h4 {
+    margin-top: -40%;
+    margin-left: 53%;
+    text-align: left;
+    color: #212529;
+    font-family: inherit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.grey-card-lorem {
+    margin-top: 10px;
+    margin-left: 53%;
+    width: 200px;
+    color: #212529;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.grey-box {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #C2C2C2;
+}
+
+#contact-container {
+    position: relative;
+    width: 100%;
+    height: 479px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+}
+
+#contact-h2 {
+    padding-top: 30px;
+    text-align: center;
+    color: #212529;
+    font-family: inherit;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#send-h4 {
+    margin-bottom: 20px;
+    margin-top: 65px;
+    margin-left: 30%;
+    color: #212529;
+    font-family: inherit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.email {
+    padding: 5px;
+    margin-left: 30%;
+    border-radius:  8px;
+    background: #212529;
+    color: #F8F9FA;
+    font-family: inherit;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    border: 0px;
+}
+
+.name {
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 8px;
+    background: #212529;
+    color: #F8F9FA;
+    font-family: inherit;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    border: 0px;
+}
+
+.message {
+    border: 0px;
+    margin-left: 30%;
+    margin-top: 10px;
+    color: #F8F9FA;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 610px;
+    height: 120px;    
+    vertical-align: middle;
+    flex-shrink: 0;
+    border-radius:  8px;
+    background: #212529;
+    
+}
+
+#contact-btn {
+    margin-top: 20px;
+    margin-left: 57.50%;
+    color: #212529;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #F8F9FA;
+    border: 0px;
+}
+
+#icons-title {
+    margin-top: -270px;
+    margin-left: 63%;
+    vertical-align: middle;
+    color: #212529;
+    font-family: inherit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.watsup {
+    color: #212529;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-left: 63%;
+}
+
+.instagram {
+    margin-top: 10px;
+    margin-left: 63%;
+    color: #212529;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.facebook {
+    margin-top: 10px;
+    margin-left: 63%;
+    color: #212529;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.linkedin {
+    margin-top: 10px;
+    margin-left: 63%;
+    color: #212529;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.github {
+    margin-top: 10px;
+    margin-left: 63%;
+    color: #212529;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#footer {
+    background-color: #212529;
+    height: 60px;
+    color: #F8F9FA;
+    text-align: center;
+    font-family: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
